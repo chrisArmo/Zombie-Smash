@@ -78,11 +78,11 @@ const playGame = (game) => {
                     if (actions.target === zombieVulnerability) {
                         game.zombie -= damage;
                         console.log(`\nDirect hit with the zombie's ${actions.target}`);
-                        console.log(`You dealt the zombie ${damage} damage.`);
+                        console.log(`You dealt ${damage} damage to the zombie.`);
                     } else {
                         game.player -= damage;
                         console.log(`\nYou missed the zombie's ${actions.target}`);
-                        console.log(`The Zombie dealt you ${damage} damage.`);
+                        console.log(`The Zombie dealt ${damage} damage to you.`);
                     }
         
                     if (game.player > 0 && game.zombie > 0) {
@@ -104,11 +104,11 @@ const checkGame = (game) => {
     if (game.player <= 0) {
         game.score.zombie += 1;
         game.over = true;
-        console.log("\nBummer, the zombie devoured your brain");
+        console.log("\nBummer, the zombie devoured your brain :(");
     } else if (game.zombie <= 0) {
         game.score.player += 1;
         game.over = true;
-        console.log("\nYou have vanquished the zombie!");
+        console.log("\nYou smashed the zombie into a bloody mess!");
     }
 
     if (!game.over) {
