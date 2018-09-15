@@ -6,7 +6,7 @@ If the player's attack doesn't land, the player receives damage.
 ## Use
 
 The player chooses between the Zombie's head, chest, arms, and legs to try and inflict damage.
-One of the locations is the going to be vulnerable at random. The player will only land if they choose the vulnerable location.
+One of the locations is going to be vulnerable at random. The player will only land if they choose the vulnerable location.
 
 ## Tips
 
