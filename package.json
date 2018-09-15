@@ -1,0 +1,9 @@
+{
+  "name": "zombie-commandline-game",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^6.2.0"
+  }
+}
